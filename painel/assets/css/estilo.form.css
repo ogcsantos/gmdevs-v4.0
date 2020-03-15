@@ -1,0 +1,47 @@
+@import "https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700";
+
+input {
+	outline: none;
+    transition: all .5s;
+    padding: 5px 10px;
+	width: 100%;
+	padding: 8px 5px;
+	color: #555;
+	font-size: 17px;
+	border: 3px solid #d0d0d0;
+	background-color: #fff;
+    box-shadow: none;
+    transition: all .7s;
+}
+
+textarea {
+    outline: none;
+	width: 100%;
+	padding: 8px 5px;
+	color: #555;
+	font-size: 17px;
+	border: 1.5px solid #d0d0d0;
+	background-color: #fff;
+    box-shadow: none;
+    transition: all .3s ease-in-out;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
+
+input::-webkit-input-placeholder { color: #adadad;}
+input:-moz-placeholder { color: #adadad;}
+input::-moz-placeholder { color: #adadad;}
+input:-ms-input-placeholder { color: #adadad;}
+
+textarea::-webkit-input-placeholder { color: #adadad;}
+textarea:-moz-placeholder { color: #adadad;}
+textarea::-moz-placeholder { color: #adadad;}
+textarea:-ms-input-placeholder { color: #adadad;}
