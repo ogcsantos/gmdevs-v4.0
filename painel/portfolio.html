@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <!-- ///////////////////////
+    ////// 
+    ////// CODE HTML - ( HEAD GERAL )
+    ////// 
+    //////////////////////// -->
+
+  <!-- # IMPORTS - ( META ) # -->
+  <base href="/painel/">
+  <link rel="canonical" href="/painel/" />
+
+  <title> Portfólio - [Painel] - GMDevs v4.0 </title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Language" content="pt-br">
+  <meta http-equiv="Content-Type" content="text/html; charset-utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" value="notranslate">
+  <meta name="language" content="PT-BR">
+  <meta name="author" value="Geraldo Moehra | @gmoehra | gmoehra#8251" />
+  <meta name="robots" content="index,follow,noodp,noydir">
+  <meta name="revisit-after" content="1 week">
+  <meta name="keywords" content="">
+  <meta name="theme-color" content="">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:description" content="">
+  <meta name="description" content="">
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:description" content=" " />
+  <meta name="twitter:image" content="/painel/assets/logo.png" />
+
+
+
+
+  <!-- # IMPORTS - ( FAVICON ) # -->
+  <link rel="icon" type="img/png" href="/painel/assets/img/Favicon.png">
+
+
+
+  <!-- # IMPORTS - ( CSS ) # -->
+  <link rel="stylesheet" type="text/css" href="/painel/assets/css/animacoes.css">
+  <link rel="stylesheet" type="text/css" href="/painel/assets/css/normalizar.css">
+  <link rel="stylesheet" type="text/css" href="/painel/assets/css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="/painel/assets/css/estilo.grids.css">
+  <link rel="stylesheet" type="text/css" href="/painel/assets/css/estilo.modal.css">
+  <link rel="stylesheet" type="text/css" href="/painel/assets/css/estilo.containers.css">
+
+
+
+  <!-- # IMPORTS - ( JS ) # -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+
+  <!-- # IMPORTS - ( ION ICONS ) # -->
+  <link href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- # IMPORTS - ( FONT AWESOME'S ) # -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <!-- # IMPORTS - ( SUMMERNOTE ) # -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+
+</head>
+
+<body>
+
+  <div class="ctn-menu">
+    <div class="cMNU-conteudo">
+      <div class="cMNUc-botoes">
+        <button class="000 tooltip" ver="sim" onClick="goTo('/painel/')">
+          <img src="/painel/assets/img/utils/icones/2/home.png">
+          <em>INÍCIO</em>
+          <tooltext class="tooltiptext p-direito"> INÍCIO </tooltext>
+        </button>
+
+        <hr>
+
+        <button class="000 tooltip" ver="sim" onClick="goTo('/painel/projetos')">
+          <img src="/painel/assets/img/utils/icones/2/layers.png">
+          <em>PROJETOS</em>
+          <tooltext class="tooltiptext p-direito"> PROJETOS </tooltext>
+        </button>
+
+        <button class="000 tooltip" ver="sim" onClick="goTo('/painel/servicos')">
+          <img src="/painel/assets/img/utils/icones/028-diagram.png">
+          <em>SERVIÇOS</em>
+          <tooltext class="tooltiptext p-direito"> SERVIÇOS </tooltext>
+        </button>
+
+        <button class="ativo tooltip" ver="sim" onClick="goTo('/painel/portfolio')">
+          <img src="/painel/assets/img/utils/icones/2/image.png">
+          <em>PORTFÓLIO</em>
+          <tooltext class="tooltiptext p-direito"> PORTFÓLIO </tooltext>
+        </button>
+
+        <button class="000 tooltip" ver="sim" onClick="goTo('/painel/clientes')">
+          <img src="/painel/assets/img/utils/icones/2/users.png">
+          <em>CLIENTES</em>
+          <tooltext class="tooltiptext p-direito"> CLIENTES </tooltext>
+        </button>
+
+        <hr>
+
+        <button class="000 tooltip" ver="sim" onClick="goTo('/painel/contas')">
+          <img src="/painel/assets/img/utils/icones/2/user-16.png">
+          <em>CONTAS</em>
+          <tooltext class="tooltiptext p-direito"> CONTAS </tooltext>
+        </button>
+
+        <button class="000 tooltip" ver="sim" onClick="goTo('/painel/docs')">
+          <img src="/painel/assets/img/utils/icones/2/doc.png">
+          <em>DOC</em>
+          <tooltext class="tooltiptext p-direito"> DOCUMENTAÇÃO </tooltext>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- |||||||||||||||||||||||||||||| -->
+  <!-- ||| [ CODIGO DO CONTEÚDO ] ||| -->
+  <!-- |||||||||||||||||||||||||||||| -->
+  <div class="ctn-global">
+    <div class="header-full">
+      <div class="cardLogo">
+        <img src="assets/img/Logo.png" alt="">
+      </div>
+
+      <div class="cardPerfil">
+        <div class="cPL-content">
+          <em>gmoehra</em>
+          Conta Administrativa
+        </div>
+        <div class="cPL-avatar">
+          <img src="/assets/img/utils/Avatar_Perfil.png" alt="Avatar - gmoehra">
+
+          <button class="btn-sair" onClick="goTo('home/sair')">
+            <ion-icon name="power"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="listagemRow">
+      <div class="col-md-12">
+        <div class="cms-conteudo" style="min-height: 80vh;">
+
+          <div class="cMS-header">
+            <img src="/painel/assets/img/utils/icones/2/image.png"> Serviços finalizado e adicionados no
+            Portfólio <em>(1)</em>
+          </div>
+
+          <div class="cMS-conteudo">
+
+            <div class="cardTable">
+              <div class="col-md-9 row">
+                <div class="col-md-3">
+                  GMDevs v4.0
+                </div>
+
+                <div class="col-md-4">
+                  Hoje às 14:30
+                </div>
+
+                <div class="col-md-3">
+                  Geraldo Moehra
+                </div>
+
+                <div class="col-md-2">
+                  <strong>[GMDevs]</strong>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <button type="button" class="ord-entregue" id="ORD-#' . $rs->port_ID . '">
+                  ENTREGUE
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- |||||||||||||||||||||||||||||| -->
+  <!-- ||| [ CODIGO DO CONTEÚDO ] ||| -->
+  <!-- |||||||||||||||||||||||||||||| -->
+
+
+
+
+
+
+
+  <footer>
+    <div class="brand">
+      <div class="copyright">
+        @ Copyright GMP - <button onClick="goTo('https://gmoehra.com/')">Created by g. moehra</button> | Built with
+        <ion-icon name="heart-empty"></ion-icon>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!-- # IMPORTS - ( JS - ION ICONS ) # -->
+  <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+
+  <!-- # IMPORTS - ( JS ) # -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+
+  <!-- # IMPORTS - ( JS ) # -->
+  <script src="/painel/assets/js/jquery/jquery.min.js"></script>
+  <script src="/painel/assets/js/sweetalert.js"></script>
+
+  <script src="/painel/assets/js/wow/wow.min.js"></script>
+  <script src="/painel/assets/js/waves/waves.min.js"></script>
+  <script src="/painel/assets/js/popper/umd/popper.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+
+  <!-- # IMPORTS - ( JS - CONTROLADORES ) # -->
+  <script src="/painel/assets/js/geral.js"></script>
+  <script src="/painel/assets/js/init.js"></script>
+
+</body>
+
+</html>
