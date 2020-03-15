@@ -1,0 +1,127 @@
+
+
+
+
+
+/***
+ * CODE STYLE ( FULLS )
+***/
+.full-right { float: right; }
+
+
+.tr-modal {
+  width: 40%;
+  height: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  display: none;
+  position: fixed;
+  top: 15%;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+  transform: translate(-50%, -50%, -50%, -50%);
+  z-index: 20;
+}
+.overlay ~ .tr-title { background: #fff; }
+.overlay ~ .tr-body { background: #fff; }
+.overlay ~ .tr-conteudo { padding: 20px; background: #fff; position: relative; }
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.3);
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.tr-conteudo {
+  padding: 15px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 9999;
+}
+.tr-title {
+  position: relative;
+  margin-top: 3px;
+  font-size: 23px;
+  z-index: 11;
+}
+.tr-modal .tr-close {
+  padding: 5px !important;
+  padding-bottom: 3px !important;
+  border: none;
+  background: #EE2C2C;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 11;
+}
+.tr-conteudo .tr-body {
+  max-height: 60vh;
+  padding: 20px 0;
+  font-family: 'Quicksand', sans-serif;
+  overflow-x: scroll;
+  z-index: 11;
+}
+
+
+.tr-modal .tr-body .handContainer .handConteudo {
+  position: relative;
+  width: 100%;
+  padding-top: 3px;
+  padding-left: 8px;
+  text-align: justify;
+}
+.tr-modal .tr-body .handContainer .handContent {
+  min-width: 100%;
+  color: #000;
+  font-weight: bold;
+  display: block;
+}
+.tr-modal .tr-body .handContainer .handContent em { font-style: normal; display: inline-block; }
+.tr-modal .tr-body .handContainer .handContent a.hDeletar {
+  margin-top: -8px;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: bold; 
+  text-align: right; 
+  background: #EE2C2C;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  display: block;
+  float: right;
+}
+.tr-modal .tr-body .handContainer .handContent a.hAzul { 
+  margin-top: -8px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: bold; 
+  text-align: right; 
+  background: #00f8ff;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  display: block;
+  float: right;
+}
+
+
+
+.cardCartItens { padding: 30px 20px; background: rgba(0, 0, 0, 0.03); border-bottom: 2px solid rgba(0, 0, 0, .1); }
+.cardCartItens li { display: block; }
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .tr-modal { width: 95%; }
+
+}

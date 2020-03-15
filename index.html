@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <!-- ///////////////////////
+    ////// 
+    ////// CODE HTML - ( HEAD GERAL )
+    ////// 
+    //////////////////////// -->
+
+  <!-- # IMPORTS - ( META ) # -->
+  <base href="/">
+  <link rel="canonical" href="/" />
+
+  <title>GMDevs v4.0</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Language" content="pt-br">
+  <meta http-equiv="Content-Type" content="text/html; charset-utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" value="notranslate">
+  <meta name="language" content="PT-BR">
+  <meta name="author" value="Geraldo Moehra | @gmoehra | gmoehra#8251" />
+  <meta name="robots" content="index,follow,noodp,noydir">
+  <meta name="revisit-after" content="1 week">
+  <meta name="keywords" content="">
+  <meta name="theme-color" content="">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:description" content="">
+  <meta name="description" content="">
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:description" content=" " />
+  <meta name="twitter:image" content="/assets/logo.png" />
+
+
+
+
+  <!-- # IMPORTS - ( FAVICON ) # -->
+  <link rel="icon" type="img/png" href="/assets/img/Favicon.png">
+
+
+
+  <!-- # IMPORTS - ( CSS ) # -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/animacoes.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/normalizar.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/estilo.loja.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/estilo.grids.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/estilo.containers.css">
+
+
+
+  <!-- # IMPORTS - ( JS ) # -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+
+  <!-- # IMPORTS - ( JOGADORES API ) # -->
+  <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter@1.1.0/dist/mc-player-counter.min.js"></script>
+
+  <!-- # IMPORTS - ( ION ICONS ) # -->
+  <link href="https://unpkg.com/ionicons@4.4.8/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- # IMPORTS - ( FONT AWESOME'S ) # -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+
+
+
+  <!-- |||||||||||||||||||||||||| -->
+  <!-- ||| [ CÓDIGO DO MENU ] ||| -->
+  <!-- |||||||||||||||||||||||||| -->
+  <menu>
+    <div class="menu-central">
+      <div class="menu-botoes">
+        <ulers>
+          <ul style="width: 360px;">
+            <button class="menu-logo" onClick="goTo('/')">
+              <em>G</em>MDevs
+            </button>
+          </ul>
+          <ul>
+            <li class="ativo">
+              <button onClick="goTo('/')">
+                Início
+              </button>
+            </li>
+            <li class="000">
+              <button onClick="goTo('/portfolio')">
+                Portfólio
+              </button>
+            </li>
+            <li class="000">
+              <button onClick="goTo('/projetos')">
+                Projetos
+              </button>
+            </li>
+            <li class="000">
+              <button onClick="goTo('/contato')">
+                Contato
+              </button>
+            </li>
+          </ul>
+          <ul style="justify-content: flex-end; align-items: center;">
+            <li class="000">
+              <button onClick="goTo('/cliente')" class="mButton-Cliente">
+                <ion-icon name="person"></ion-icon> Minha Conta
+              </button>
+            </li>
+          </ul>
+        </ulers>
+      </div>
+  </menu>
+  <!-- |||||||||||||||||||||||||| -->
+  <!-- ||| [ CÓDIGO DO MENU ] ||| -->
+  <!-- |||||||||||||||||||||||||| -->
+
+
+
+
+
+  <!-- |||||||||||||||||||||||||||||| -->
+  <!-- ||| [ CODIGO DO CONTEÚDO ] ||| -->
+  <!-- |||||||||||||||||||||||||||||| -->
+  <div class="ctn-floker">
+    <div class="ctn-global">
+      <div class="listagemRow padrao">
+        <div class="col-md-4">
+          <div class="cardInfoPerfil slershadow">
+            <img src="/assets/img/utils/Avatar_Perfil.png" alt="Imagem - Perfil">
+
+            <div class="cIP-conteudo">
+              <div class="cIPc-nome">
+                Geraldo Moehra
+              </div>
+
+              <div class="cIPc-CARGO">
+                Desenvolvedor Geral
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="cardInfoSobre slershadow">
+            <em>Olá, seja muito bem vindo ao meu site!</em>
+
+            <p>Meu nome é Geraldo, mais conhecido como <strong>GJMoehra</strong>, sou Desenvolvedor de Plugins / Sites /
+              Sistemas e Desiger Gráfico. </p>
+            <br><br>
+            <p>Trabalho desde 2016 com Designer Gráfico geral e 1.5 Ano com Web e Plugins, sou conhecido por ter um dos
+              melhores suportes na área em geral.</p>
+            <br><br>
+            <p>Atualmente presto serviço para algumas empresas de portes variados, e estou a disposição para melhorar a
+              sua
+              também.</p>
+            <br><br>
+            <p>Está esperando o que para conhecer mais sobre meu trabalho? Veja abaixo ou <button
+                onClick="goTo('/portfolio')">clique aqui</button> alguns trabalhos e aprove a qualidade!</p>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br>
+
+      <div class="listagemBody row">
+        <div class="col-md-4">
+          <div class="cardPortItem slershadow">
+            <img src="https://i.imgur.com/LEXz10H.png">
+
+            <div class="onRedirect">
+              <a href="http://gmoehra.com/" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="ios-send"></ion-icon>
+              </a>
+              <div class="cIP-infor">
+                <em>CSS, JS, HTML</em>
+                GMDevs v4.0
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- |||||||||||||||||||||||||||||| -->
+  <!-- ||| [ CODIGO DO CONTEÚDO ] ||| -->
+  <!-- |||||||||||||||||||||||||||||| -->
+
+
+
+
+
+  <!-- |||||||||||||||||||||||||||| -->
+  <!-- ||| [ CODIGO DO RODAPE ] ||| -->
+  <!-- |||||||||||||||||||||||||||| -->
+  <footer>
+    <div class="brand">
+      © <strong>GMDevs v4.0</strong>. Todos direitos reservados
+    </div>
+  </footer>
+  <!-- |||||||||||||||||||||||||||| -->
+  <!-- ||| [ CODIGO DO RODAPE ] ||| -->
+  <!-- |||||||||||||||||||||||||||| -->
+
+
+
+
+
+
+
+
+  <!-- # IMPORTS - ( JS - ION ICONS ) # -->
+  <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+
+  <!-- # IMPORTS - ( JS ) # -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+
+  <!-- # IMPORTS - ( JS ) # -->
+  <script src="/assets/js/jquery/jquery.min.js"></script>
+  <script src="/assets/js/sweetalert.js"></script>
+
+  <script src="/assets/js/wow/wow.min.js"></script>
+  <script src="/assets/js/waves/waves.min.js"></script>
+  <script src="/assets/js/popper/umd/popper.min.js"></script>
+
+  <!-- # IMPORTS - ( JS - CONTROLADORES ) # -->
+  <script src="/assets/js/geral.js"></script>
+  <script src="/assets/js/full.js"></script>
+
+</body>
+
+</html>

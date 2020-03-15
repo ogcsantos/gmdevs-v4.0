@@ -1,0 +1,976 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:300,300i,400,400i,500,500i,600,600i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&subset=devanagari,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,thai,vietnamese');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.listagemRow.ctn-login {
+  width: 100%;
+  padding: 50px;
+  color: #616161;
+  background: #27293d;
+  -webkit-box-shadow: 0px 0 40px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0 40px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cardPLogin-info {
+  width: 100%;
+}
+
+.cardPLogin-info .cPL-header {
+  padding: 15px;
+  padding-top: 0;
+  color: #FFAA00;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+}
+
+.cardPLogin-info .cPL-conteudo {
+  width: 100%;
+  margin-top: 45px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.cardPLogin-info .cPL-conteudo.cPLs-padding1 {
+  padding: 0 30px;
+}
+
+
+
+
+
+
+/* ///////////////////////////////// */
+/* /// [ CSS CODE - LOGIN CARD ] /// */
+/* ///////////////////////////////// */
+.cardLogin {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cardLogin .cLGN-header {
+  width: 100%;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardLogin .cLGN-header em {
+  margin: 0 10px;
+  padding: 3px 10px;
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  background: #FFAA00;
+  border-radius: 3px;
+  display: block;
+}
+
+
+.cardLogin form {
+  width: 100%;
+  position: relative;
+}
+
+.cardLogin form .cLGN-conteudo {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 0 10px;
+}
+
+.cardLogin form .cLGN-conteudo em {
+  margin-bottom: 5px;
+  color: #999;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  display: block;
+}
+
+.cardLogin form .cLGN-conteudo input {
+  width: 100%;
+  height: 55px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-left: 40px;
+  color: #b6cbd2;
+  font-size: 18px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  line-height: 23px;
+  border: none;
+  border: 1.5px solid #2b3553;
+  border-radius: 5px;
+  display: block;
+  outline: 0;
+  transition: all .3s ease-in-out;
+}
+
+.cardLogin form .cLGN-conteudo input:focus-within {
+  border-color: #3358f4;
+}
+
+.cardLogin form .cLGN-conteudo input[type="name"] {
+  background: url('http://img.gmdevs.net/media/icons/login-user.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+  z-index: 99999;
+}
+
+.cardLogin form .cLGN-conteudo input[type="password"] {
+  background: url('http://img.gmdevs.net/media/icons/login-pass.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+}
+
+.cardLogin form .cLGN-conteudo input[type="text"] {
+  background: url('http://img.gmdevs.net/media/icons/icon-name.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+}
+
+.cardLogin form .cLGN-conteudo input[type="email"] {
+  background: url('http://img.gmdevs.net/media/icons/icon-email.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+}
+
+.cardLogin form .cLGN-conteudo input[type="name"],
+.cardLogin form .cLGN-conteudo input[type="password"],
+.cardLogin form .cLGN-conteudo input[type="text"],
+.cardLogin form .cLGN-conteudo input[type="email"] {
+  background-position: 15px center;
+}
+
+.cardLogin form .cLGN-conteudo button {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 15px 0;
+  color: rgb(180, 180, 180);
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: #1a1e2b;
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+}
+
+.cardLogin form .cLGN-conteudo button.btn-sucesso {
+  color: #fff;
+  background: #3fcb2d;
+}
+
+.cardLogin form .cLGN-conteudo button.btn-error {
+  color: #fff;
+  background: #EE2C2C;
+}
+
+
+
+
+
+
+/* //////////////////////////////////// */
+/* /// [ CSS CODE - CADASTRO CARD ] /// */
+/* //////////////////////////////////// */
+.cardCadastro {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cardCadastro .cCDT-header {
+  width: 100%;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardCadastro .cCDT-header em {
+  margin: 0 10px;
+  padding: 3px 10px;
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  background: #FFAA00;
+  border-radius: 3px;
+  display: block;
+}
+
+
+.cardCadastro form {
+  width: 100%;
+  position: relative;
+}
+
+.cardCadastro form .cCDT-conteudo {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 0 10px;
+}
+
+.cardCadastro form .cCDT-conteudo em {
+  margin-bottom: 5px;
+  color: #999;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  display: block;
+}
+
+.cardCadastro form .cCDT-conteudo input {
+  width: 100%;
+  height: 55px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-left: 40px;
+  color: #b6cbd2;
+  font-size: 18px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  line-height: 23px;
+  border: none;
+  border: 1.5px solid #2b3553;
+  border-radius: 5px;
+  display: block;
+  outline: 0;
+  transition: all .3s ease-in-out;
+}
+
+.cardCadastro form .cCDT-conteudo input:focus-within {
+  border-color: #3358f4;
+}
+
+.cardCadastro form .cCDT-conteudo input[type="name"] {
+  background: url('http://img.gmdevs.net/media/icons/login-user.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+  z-index: 99999;
+}
+
+.cardCadastro form .cCDT-conteudo input[type="password"] {
+  background: url('http://img.gmdevs.net/media/icons/login-pass.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+}
+
+.cardCadastro form .cCDT-conteudo input[type="text"] {
+  background: url('http://img.gmdevs.net/media/icons/icon-name.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+}
+
+.cardCadastro form .cCDT-conteudo input[type="email"] {
+  background: url('http://img.gmdevs.net/media/icons/icon-email.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+}
+
+.cardCadastro form .cCDT-conteudo input[type="name"],
+.cardCadastro form .cCDT-conteudo input[type="password"],
+.cardCadastro form .cCDT-conteudo input[type="text"],
+.cardCadastro form .cCDT-conteudo input[type="email"] {
+  background-position: 15px center;
+}
+
+.cardCadastro form .cCDT-conteudo button {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 15px 0;
+  color: rgb(180, 180, 180);
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: #1a1e2b;
+  border-bottom: 3px solid rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+}
+
+.cardCadastro form .cCDT-conteudo button.btn-sucesso {
+  color: #fff;
+  background: #3fcb2d;
+}
+
+.cardCadastro form .cCDT-conteudo button.btn-error {
+  color: #fff;
+  background: #EE2C2C;
+}
+
+
+
+
+
+
+/* ////////////////////////////////////////// */
+/* /// [ CSS CODE - MENU LATERAL PERFIL ] /// */
+/* ////////////////////////////////////////// */
+.ctn-perfil-lateral {
+  width: 100%;
+  padding: 20px;
+  color: #999 !important;
+  background: #27293d;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .250);
+  transition: all .5s ease-in-out;
+}
+
+.ctn-perfil-lateral .cPFlh-header {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #AAAAAA;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+.ctn-perfil-lateral .cPFlh-header .cPFL-nick {
+  width: 100%;
+  margin-bottom: 12px;
+  color: #FFAA00;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+.ctn-perfil-lateral .cPFlh-header .cPFL-avatar {
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ctn-perfil-lateral .cPFlh-header .cPFL-avatar .cPFL-cargo {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  background: transparent;
+  background-repeat: no-repeat;
+  border: 8px solid #FFAA00;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.ctn-perfil-lateral .cPFlh-header .cPFL-avatar img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center center;
+  z-index: 1;
+}
+
+.ctn-perfil-lateral .cPFlh-header .cPFL-avatar henter {
+  width: 100%;
+  height: 100%;
+  color: #FFAA00;
+  font-size: 80px;
+  text-transform: uppercase;
+  background: #0d0e16;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctn-perfil-lateral .cPFlh-header em {
+  color: #FFAA00;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, .3);
+}
+
+
+
+.ctn-perfil-lateral .cPFl-botoes {
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.ctn-perfil-lateral .cPFl-botoes button {
+  width: 100%;
+  padding: 15px;
+  color: #888;
+  text-align: left;
+  border-left: 1.5px solid rgba(0, 0, 0, 0);
+  transition: all .5 ease-in-out;
+}
+
+.ctn-perfil-lateral .cPFl-botoes button em {
+  font-style: normal;
+  font-weight: 600;
+  float: right;
+}
+
+.ctn-perfil-lateral .cPFl-botoes button ion-icon {
+  margin-bottom: -3px;
+}
+
+.ctn-perfil-lateral .cPFl-botoes button.sair:hover {
+  color: #EE2C2C;
+  border-left-color: #EE2C2C;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.ctn-perfil-lateral .cPFl-botoes button.ativo {
+  color: #FFAA00;
+  border-left-color: #FFAA00;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.ctn-perfil-lateral .cPFl-botoes button.ativo:hover {
+  color: #FFAA00;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.ctn-perfil-lateral .cPFl-botoes button:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.ctn-perfil-lateral .cPFl-botoes hr {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0;
+  border-color: rgba(0, 0, 0, 0.03);
+}
+
+.ctn-perfil-lateral .cPFl-botoes button[disabled] {
+  cursor: not-allowed;
+}
+
+.ctn-perfil-lateral .cPFl-botoes button[disabled]:hover {
+  background: unset;
+}
+
+
+
+
+
+
+/* ////////////////////////////////////// */
+/* /// [ CSS CODE - CONTEUDO PERFIL ] /// */
+/* ////////////////////////////////////// */
+.col-md-9.cFullPerfil {
+  width: 72% !important;
+  margin-left: 16px;
+  box-sizing: border-box;
+  padding: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: unset;
+  -ms-flex: unset;
+  flex: unset;
+  max-width: 72% !important;
+}
+
+.ctn-perfil-conteudo {
+  width: 100%;
+  padding: 20px;
+  color: #999 !important;
+  background: #27293d;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .250);
+  transition: all .5s ease-in-out;
+}
+
+.ctn-perfil-conteudo .dash-home {
+  width: 100%;
+  font-size: 20px;
+}
+
+.ctn-perfil-conteudo .dash-home .cPLc-conteudo button {
+  color: #FFAA00;
+}
+
+.ctn-perfil-conteudo .cPLc-header {
+  padding-left: 15px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  border-bottom: 1px dashed rgba(153, 153, 153, .5);
+}
+
+.ctn-perfil-conteudo .cPLc-header ion-icon {
+  margin-bottom: -5px;
+}
+
+.ctn-perfil-conteudo .cPLc-conteudo {
+  padding: 0 15px;
+  padding-top: 15px;
+  font-size: 18px;
+}
+
+
+
+.ctn-perfil-conteudo .cPLc-conteudo .dataTables_length label select {
+  height: 28px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0;
+}
+
+.ctn-perfil-conteudo .cPLc-conteudo .dataTables_filter input {
+  height: 28px;
+  padding: 5px;
+  font-size: 13px;
+  border: 2px solid #e0e0e0;
+}
+
+.ctn-perfil-conteudo .cPLc-conteudo .dataTables_length label select:focus-within,
+.ctn-perfil-conteudo .cPLc-conteudo .dataTables_filter input:focus-within {
+  outline: 0;
+}
+
+.ctn-perfil-conteudo .cPLc-conteudo .dataTables_paginate.paging_simple_numbers {
+  margin-top: 10px;
+  padding-top: 0;
+  border: 1px solid rgba(0, 0, 0, .1) !important;
+}
+
+.ctn-perfil-conteudo .cPLc-conteudo a.paginate_button.previous,
+.ctn-perfil-conteudo .cPLc-conteudo a.paginate_button.next {
+  padding: 5px 10px;
+}
+
+.ctn-perfil-conteudo .cPLc-conteudo a.paginate_button.current {
+  padding: 5px 5px;
+  color: #fff !important;
+  background: #FFAA00;
+  border: none !important;
+}
+
+.ctn-perfil-conteudo .cPLc-conteudo a.paginate_button.current:hover {
+  color: #fff !important;
+  background: #FFAA00;
+  outline: 0;
+}
+
+.ctn-perfil-conteudo .cPLc-conteudo table.transacoes thead tr th {
+  width: max-content;
+  font-size: 17px;
+}
+
+.ctn-perfil-conteudo .cPLc-conteudo table.transacoes tbody tr td {
+  width: max-content;
+  font-size: 14px;
+  text-align: center;
+}
+
+.ctn-perfil-conteudo .cPLc-conteudo table.transacoes button {
+  padding: 5px 10px;
+  color: #fff;
+  background: #FFAA00;
+  display: block;
+}
+
+.cardCartItens {
+  padding: 30px 20px;
+  background: rgba(0, 0, 0, 0.03);
+  border-bottom: 2px solid rgba(0, 0, 0, .1);
+}
+
+.cardCartItens li {
+  display: block;
+}
+
+
+.ctn-perfil-conteudo hr {
+  border-color: rgba(43, 53, 83, .5);
+}
+
+
+.ctn-perfil-conteudo form {
+  width: 100%;
+  color: #999 !important;
+  position: relative;
+}
+
+.ctn-perfil-conteudo form .aviso_text {
+  width: max-content;
+  padding: 12px 20px;
+  color: rgba(255, 255, 255, .8);
+  font-size: 16px;
+  border-bottom: 2.5px solid rgba(0, 0, 0, .3);
+}
+
+.ctn-perfil-conteudo form .aviso_text.abso {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.ctn-perfil-conteudo form .aviso_text.cor_verde {
+  background-color: rgba(63, 203, 45, .8);
+}
+
+.ctn-perfil-conteudo form .aviso_text.cor_vermelho {
+  background-color: rgba(238, 44, 44, .8);
+}
+
+.ctn-perfil-conteudo form .row .col-md-4 {
+  padding-right: 20px;
+}
+
+.ctn-perfil-conteudo form em {
+  margin-bottom: 3px;
+  margin-left: 15px;
+  font-size: 16px;
+  font-style: normal;
+  display: block;
+}
+
+.ctn-perfil-conteudo form input,
+input:-webkit-autofill {
+  width: 100%;
+  height: 40px;
+  padding: 0 20px;
+  color: #999 !important;
+  border-radius: 25px;
+  background: transparent;
+  border: 1.5px solid #2b3553;
+  outline: 0;
+  transition: all .3s ease-in-out;
+}
+
+.ctn-perfil-conteudo form input[readonly],
+.ctn-perfil-conteudo form input[readonly]:focus-within {
+  border-color: #2b3553;
+  cursor: not-allowed;
+}
+
+.ctn-perfil-conteudo form input[disabled] {
+  cursor: not-allowed;
+}
+
+.ctn-perfil-conteudo form input:focus-within {
+  border-color: #3358f4;
+}
+
+
+.ctn-perfil-conteudo form button.btn-img {
+  height: 40px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #999;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 2px solid #2b3553;
+  float: right;
+  transition: all .3s ease-in-out;
+}
+
+.ctn-perfil-conteudo form button.btn-img:hover {
+  color: #fff;
+  background: #3358f4;
+  border-color: #3358f4;
+}
+
+.ctn-perfil-conteudo form button.btn-padrao {
+  margin-top: 20px;
+  padding: 12px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #3fcb2d;
+  border-radius: 3px;
+  border-bottom: 2.5px solid rgba(0, 0, 0, .3);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: all .3s ease-in-out;
+}
+
+.ctn-perfil-conteudo form button.btn-padrao[disabled] {
+  cursor: not-allowed;
+}
+
+.ctn-perfil-conteudo form button.btn-padrao.stl-verde {
+  color: #fff;
+  background: #3fcb2d;
+}
+
+.ctn-perfil-conteudo form button.btn-padrao.stl-azul {
+  color: #fff;
+  background: #3358f4;
+}
+
+.ctn-perfil-conteudo form button.btn-padrao.stl-vermelho {
+  color: #fff;
+  background: rgba(238, 44, 44, .8);
+}
+
+
+
+
+.ctn-perfil-conteudo .cardNoCompra {
+  width: 100%;
+  height: 70px;
+  margin: 20px 0;
+  padding: 15px;
+  padding-bottom: 12px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, .3);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.ctn-perfil-conteudo .cardCompra {
+  width: 100%;
+  height: 100px;
+  margin: 20px 0;
+  padding: 15px;
+  padding-bottom: 12px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, .3);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-imagem {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-imagem img {
+  width: 100%;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-conteudo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-conteudo em {
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-conteudo p {
+  font-size: 15px;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-cadastro {
+  font-weight: 100;
+  font-size: 13px;
+  text-align: right;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-estado.e-dev+.cCPR-cadastro {
+  font-size: 12px;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-cadastro em {
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-style: normal;
+  display: block;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-estado::after {
+  content: "";
+  width: max-content;
+  padding: 8px 10px;
+  font-size: 13px;
+  font-weight: bold;
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-estado.e-entregue::after {
+  content: "entregue";
+  color: #fff;
+  background: #3fcb2d;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-estado.e-dev::after {
+  content: "em desenvolvimento";
+  color: #fff;
+  background: #FFAA00;
+}
+
+.ctn-perfil-conteudo .cardCompra .cCPR-estado.e-npago::after {
+  content: "não pago";
+  color: #fff;
+  background: #EE2C2C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+  .listagemRow.ctn-login {
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+
+  .listagemRow.ctn-login .col-md-5,
+  .listagemRow.ctn-login .col-md-7 {
+    padding: 0;
+  }
+
+  .listagemRow.ctn-login .cardPLogin-info .cPL-header {
+    padding: 10px;
+  }
+
+  .listagemRow.ctn-login .cardPLogin-info .cPL-conteudo.cPLs-padding1 {
+    padding: 0;
+  }
+
+  .listagemRow.ctn-login .cardLogin {
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+  .listagemRow.ctn-login .cardLogin form .cLGN-conteudo {
+    padding: 0;
+  }
+
+  .col-md-9.cFullPerfil {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 30px;
+    margin-left: 0;
+    padding: 0;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 2px solid #2b3553 !important;
+  -webkit-text-fill-color: #999;
+  -webkit-box-shadow: 0 0 0 9999999px #27293d inset;
+  transition: background-color 5000s ease-in-out 0s;
+}

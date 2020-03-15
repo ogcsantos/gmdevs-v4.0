@@ -1,0 +1,791 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:300,300i,400,400i,500,500i,600,600i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&subset=devanagari,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,thai,vietnamese');
+
+
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@media (max-width: 576px) {
+  .hideMobile {
+    display: none
+  }
+}
+
+@media (min-width: 576px) {
+  .hideMobile {
+    display: none
+  }
+}
+
+@media (min-width: 768px) {
+  .hideMobile {
+    display: none
+  }
+}
+
+@media (min-width: 992px) {
+  .hideMobile {
+    display: block
+  }
+}
+
+@media (min-width: 1200px) {
+  .hideMobile {
+    display: block
+  }
+}
+
+* {
+  -moz-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif !important;
+  background: #f3f9fb;
+  position: relative;
+  z-index: 9999;
+}
+
+body.cliente-dark {
+  background: #1e1e2f;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.bshadow {
+  -webkit-box-shadow: 0px -3px 12px -6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px -3px 12px -6px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px -3px 12px -6px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-box {
+  -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+}
+
+.sbshadow {
+  -webkit-box-shadow: 0 0 1px 0 rgba(59, 89, 178, .08), 0 4px 8px rgba(59, 89, 178, .2);
+  -moz-box-shadow: 0 0 1px 0 rgba(59, 89, 178, .08), 0 4px 8px rgba(59, 89, 178, .2);
+  box-shadow: 0 0 1px 0 rgba(59, 89, 178, .08), 0 4px 8px rgba(59, 89, 178, .2);
+}
+
+.bvshadow {
+  -webkit-box-shadow: 0px 0px 22px -6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 22px -6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 22px -6px rgba(0, 0, 0, 0.2);
+}
+
+.slershadow {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .8);
+  transition: all .5s ease-in-out;
+}
+
+.slershadow:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .6);
+}
+
+
+
+
+
+
+
+/***
+  * CSS CODE STYLE ( CONTAINERS )
+***/
+.opacity-hide {
+  opacity: 0;
+}
+
+
+.ctn-Mloker {
+  width: 100%;
+  background: #05172a;
+  padding: 20px;
+}
+
+.ctn-floker {
+  width: 100%;
+  background: url('../img/backgrounds/bg-header.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.ctn-global {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.ctn-global .listagemRow {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.ctn-global .listagemRow.padrao .col-md-3 {
+  padding: 0;
+}
+
+.ctn-global .listagemRow.padrao .col-md-4 {
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+.ctn-global .listagemRow.padrao .col-md-5 {
+  padding: 0;
+}
+
+.ctn-global .listagemRow.padrao .col-md-6 {
+  padding: 0;
+}
+
+.ctn-global .listagemRow.padrao .col-md-7 {
+  padding: 0;
+}
+
+.ctn-global .listagemRow.padrao .col-md-8 {
+  padding: 0;
+}
+
+.ctn-global .listagemRow.padrao .col-md-9 {
+  padding: 0;
+}
+
+.ctn-global .listagemRow .col-md-8 {
+  padding-left: 0;
+}
+
+.ctn-global .listagemRow .col-md-4 {
+  padding-right: 0;
+}
+
+.listagemRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.listagemRow.loja .col-md-3 {
+  padding-left: 0;
+}
+
+.listagemRow.loja .col-md-9 {
+  padding-right: 0;
+}
+
+
+
+
+
+
+/***
+  * CSS CODE STYLE ( MENU )
+***/
+menu {
+  width: 100%;
+  background: #05172a;
+}
+
+menu .menu-botoes ul button.menu-logo {
+  margin-right: 70px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+menu .menu-botoes ul button.menu-logo em {
+  color: #FFAA00;
+  font-style: normal;
+}
+
+menu .menu-botoes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+menu .menu-botoes ulers {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+
+menu .menu-botoes ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+
+menu .menu-botoes li {
+  list-style: none;
+  display: block;
+}
+
+menu .menu-botoes li button {
+  margin: 0 20px;
+  padding: 10px 0;
+  color: rgba(255, 255, 255, .8);
+  font-weight: 800;
+  font-size: 15px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  line-height: 45px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+menu .menu-botoes li button ion-icon {
+  margin-bottom: -2.5px;
+}
+
+menu .menu-botoes li.ativo button,
+menu .menu-botoes li.ativo button:hover {
+  color: #fff;
+}
+
+menu .menu-botoes li button:hover {
+  color: rgba(255, 255, 255, .9);
+}
+
+menu .menu-botoes li button[disabled] {
+  cursor: not-allowed;
+}
+
+menu .menu-botoes li:first-child button {
+  margin-left: 0;
+}
+
+menu .menu-botoes li:last-child button {
+  margin-right: 0;
+}
+
+menu .menu-botoes button.mButton-Cliente {
+  padding: 10px 30px;
+  color: #fff;
+  line-height: unset;
+  background: #141414;
+  border: 1.5px solid #fff;
+  border-radius: 25px;
+  transition: all .3s ease-in-out;
+}
+
+menu .menu-botoes button.mButton-Cliente:hover {
+  color: #FFAA00;
+  border-color: #FFAA00;
+  transform: scale(1.1);
+}
+
+menu .menu-botoes li.ativo button.mButton-Cliente {
+  color: #FFAA00;
+  border-color: #FFAA00;
+}
+
+menu .menu-botoes li.ativo button.mButton-Cliente:hover {
+  transform: scale(1);
+}
+
+
+menu .menu-botoes wand.mobileUl {
+  width: 100%;
+  display: none;
+  position: relative;
+}
+
+menu .menu-botoes wand.mobileUl li.mobileButton button {
+  width: 100%;
+  font-size: 20px;
+  line-height: normal;
+  text-align: right;
+  display: block;
+}
+
+menu .menu-botoes wand.mobileUl li.mobileButton button i {
+  font-size: 30px;
+  color: #fff;
+}
+
+menu .menu-botoes wand.mobileUl .buttons {
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  top: 55px;
+  left: 0%;
+  display: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  background: #fff;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.10);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+}
+
+menu .menu-botoes wand.mobileUl .buttons li button {
+  width: 100%;
+  padding: 10px;
+  color: #3498db;
+  text-align: left;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all .5 ease-in-out;
+  cursor: pointer;
+}
+
+menu .menu-botoes wand.mobileUl .buttons li:first-child button {
+  margin-top: 0;
+}
+
+menu .menu-botoes wand.mobileUl .buttons li:last-child button {
+  margin-bottom: 0;
+}
+
+menu .menu-botoes wand.mobileUl .buttons li button ion-icon {
+  margin-bottom: -3px;
+}
+
+menu .menu-botoes wand.mobileUl .buttons li.ativo button {
+  background: rgba(0, 0, 0, 0.010);
+}
+
+
+
+
+
+
+
+/***
+  * CSS CODE STYLE ( FOOTER )
+***/
+footer {
+  width: 100%;
+  padding: 20px 0;
+  background: #131313;
+}
+
+footer .brand {
+  width: 1200px;
+  margin: 0 auto;
+  color: #616161;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+footer .brand .listagemRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+footer .brand .listagemRow .col-md-6 {
+  width: 100%;
+  padding: 0;
+}
+
+footer .brand button.btn-developer {
+  color: #00a8ff;
+  font-weight: 600;
+}
+
+
+.visibleMobile {
+  visibility: hidden;
+}
+
+.handMobile {
+  display: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+
+
+  /* ||| [ CSS CODE = MENU ] ||| */
+  menu .menu-central {
+    padding: 20px 0;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+
+  menu .menu-central ul {
+    width: 100%;
+  }
+
+  menu .menu-central ul .mNU-loja,
+  menu .menu-central ul .mNU-servidor {
+    display: none;
+  }
+
+  menu .menu-central button.menu-logo {
+    width: 250px !important;
+    margin: 0 auto;
+  }
+
+  menu .menu-botoes {
+    width: 100%;
+  }
+
+  menu .menu-botoes ul {
+    display: none;
+  }
+
+  menu .menu-botoes li button {
+    text-shadow: 0;
+  }
+
+  menu .menu-botoes ulers {
+    width: 0;
+  }
+
+  menu .menu-botoes wand.mobileUl {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  menu .menu-botoes wand.mobileUl li.mobileButton {
+    float: left;
+  }
+
+
+
+  /* ||| [ CSS CODE = FOOTER ] ||| */
+  footer .brand {
+    width: 100%;
+  }
+
+  footer .brand .listagemRow {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .brand .listagemRow .col-md-6 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  footer .brand .listagemRow .col-md-6 .full-left {
+    float: unset;
+  }
+
+  footer .brand .listagemRow .col-md-6:last-child {
+    display: none;
+  }
+
+
+
+  /* ||| [ CSS CODE = CONTAINERS ] ||| */
+  .ctn-global {
+    width: 100%;
+    margin: 30px 0;
+    padding: 30px;
+    padding-top: 0;
+  }
+
+  .ctn-global .listagemRow {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .ctn-global .listagemRow.lgrWeb {
+    width: 100%;
+  }
+
+  .ctn-global .listagemRow .col-md-8,
+  .ctn-global .listagemRow .col-md-4 {
+    padding: 0;
+  }
+
+  .visibleMobile {
+    visibility: visible;
+  }
+
+  .hideMobiler {
+    visibility: hidden;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS CODE STYLE ( HOVER TOOLTIP ) */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 170px;
+  background-color: rgba(255, 56, 56, 0.9);
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: -35px;
+  left: 50%;
+  margin-left: -85px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tooltip .tooltiptext.azul {
+  background-color: rgba(0, 168, 255, .9);
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgba(255, 56, 56, 0.9) transparent;
+}
+
+.tooltip .tooltiptext.azul::after {
+  border-color: transparent transparent rgba(0, 168, 255, 0.9) transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS STYLE COR */
+
+cor {
+  color: #bbb;
+}
+
+cor[s16] {
+  font-size: 16px;
+}
+
+cor[s18] {
+  font-size: 18px;
+}
+
+cor[s20] {
+  font-size: 20px;
+}
+
+cor[s22] {
+  font-size: 22px;
+}
+
+cor[strike] {
+  text-decoration: line-through;
+}
+
+cor[grosso] {
+  font-weight: bold;
+}
+
+cor[cor="azul"] {
+  color: #00a8ff;
+}
+
+cor[cor="verde"] {
+  color: #2ecc71;
+}
+
+cor[cor="vermelho"] {
+  color: #EE2C2C;
+}
+
+cor[cor="preto"] {
+  color: #141414;
+}
+
+cor[cor="branco"] {
+  color: #fff;
+}
+
+cor[cor="rosa"] {
+  color: #e649d5;
+}
+
+cor[cor="roxo"] {
+  color: #8118d1;
+}
+
+cor[cor="amarelo"] {
+  color: #fbc531;
+}
+
+cor[cor="cinza"] {
+  color: #9b9b9b;
+}
+
+cor[cor="azul claro"] {
+  color: #00a8ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESSE É O SCROLL, SEM COR, SÓ COM A LARGURA */
+
+::-webkit-scrollbar {
+  height: 0;
+  overflow: visible;
+  width: 3.5px;
+  background-color: #fff;
+}
+
+
+
+/* ESSE É O SCROLL NORMAL, PODE SER DEFINIDO A COR, BORDAR, ETC */
+
+::-webkit-scrollbar-thumb {
+  background-color: #00a8ff;
+  padding: 0;
+  border-width: 1px 1px 1px 6px;
+}
+
+
+
+/* AQUI É A COR QUANDO PASSA O MOUSE EM CIMA DO SCROLL */
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00a8ff;
+}
+
+/* AQUI É A COR DO SCROLL QUANDO ESTÁ COM O MAUSE CLICADO NELE */
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #00a8ff;
+}
+
+
+
+::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+
+
+
+::-webkit-scrollbar-track {
+  background-clip: padding-box;
+  border: solid transparent;
+  border-width: 0 0 0 4px;
+}
