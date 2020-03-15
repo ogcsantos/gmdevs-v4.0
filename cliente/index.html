@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <!-- ///////////////////////
+    ////// 
+    ////// CODE HTML - ( HEAD GERAL )
+    ////// 
+    //////////////////////// -->
+
+  <!-- # IMPORTS - ( META ) # -->
+  <base href="/">
+  <link rel="canonical" href="/" />
+
+  <title>[Cliente] - GMDevs v4.0</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Language" content="pt-br">
+  <meta http-equiv="Content-Type" content="text/html; charset-utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" value="notranslate">
+  <meta name="language" content="PT-BR">
+  <meta name="author" value="Geraldo Moehra | @gmoehra | gmoehra#8251" />
+  <meta name="robots" content="index,follow,noodp,noydir">
+  <meta name="revisit-after" content="1 week">
+  <meta name="keywords" content="">
+  <meta name="theme-color" content="">
+  <meta property="og:title" content=>
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:description" content="">
+  <meta name="description" content="">
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content= />
+  <meta name="twitter:title" content= />
+  <meta name="twitter:description" content=" " />
+  <meta name="twitter:image" content="/assets/logo.png" />
+
+
+
+
+  <!-- # IMPORTS - ( FAVICON ) # -->
+  <link rel="icon" type="img/png" href="/assets/img/Favicon.png">
+
+
+
+  <!-- # IMPORTS - ( CSS ) # -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/animacoes.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/normalizar.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/estilo.cliente.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/estilo.modal.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/estilo.grids.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/estilo.containers.css">
+
+
+
+  <!-- # IMPORTS - ( JS ) # -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+
+  <!-- # IMPORTS - ( ION ICONS ) # -->
+  <link href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- # IMPORTS - ( FONT AWESOME'S ) # -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body class="cliente-dark">
+
+
+
+
+
+  <!-- |||||||||||||||||||||||||| -->
+  <!-- ||| [ CÓDIGO DO MENU ] ||| -->
+  <!-- |||||||||||||||||||||||||| -->
+  <menu>
+    <div class="menu-central">
+      <div class="menu-botoes">
+        <ulers>
+          <ul style="width: 360px;">
+            <button class="menu-logo" onClick="goTo('/')">
+              <em>G</em>MDevs
+            </button>
+          </ul>
+          <ul>
+            <li>
+              <button onClick="goTo('/')">
+                Início
+              </button>
+            </li>
+            <li>
+              <button onClick="goTo('/portfolio')">
+                Portfólio
+              </button>
+            </li>
+            <li>
+              <button onClick="goTo('/projetos')">
+                Projetos
+              </button>
+            </li>
+            <li>
+              <button onClick="goTo('/contato')">
+                Contato
+              </button>
+            </li>
+          </ul>
+          <ul style="justify-content: flex-end; align-items: center;">
+            <li class="ativo">
+              <button onClick="goTo('/cliente')" class="mButton-Cliente">
+                <ion-icon name="person"></ion-icon> Minha Conta
+              </button>
+            </li>
+          </ul>
+        </ulers>
+      </div>
+  </menu>
+  <!-- |||||||||||||||||||||||||| -->
+  <!-- ||| [ CÓDIGO DO MENU ] ||| -->
+  <!-- |||||||||||||||||||||||||| -->
+
+
+
+
+
+  <!-- |||||||||||||||||||||||||||||| -->
+  <!-- ||| [ CODIGO DO CONTEÚDO ] ||| -->
+  <!-- |||||||||||||||||||||||||||||| -->
+  <div class="ctn-global">
+    <div class="listagemRow">
+      <div class="col-md-3" style="min-width: 28%; padding: 0;">
+        <div class="ctn-perfil-lateral">
+          <div class="cPFlh-header">
+            <div class="cPFL-nick">
+              gmoehra
+            </div>
+
+            <div class="cPFL-avatar">
+              <div class="cPFL-cargo box-shadow"></div>
+              <img src="/assets/img/utils/Avatar_Perfil.png">
+            </div>
+          </div>
+
+          <div class="cPFl-botoes">
+            <button class="ativo" onClick="goTo('/cliente')">
+              <ion-icon name="ios-home"></ion-icon> Resumo
+            </button>
+            <button class="000" onClick="goTo('/cliente/compras')">
+              <ion-icon name="ios-cart"></ion-icon> Minhas compras
+            </button>
+
+            <button disabled class="000" onClick="goTo('/cliente/suporte')">
+              <ion-icon name="help"></ion-icon> Suporte
+            </button>
+            <button disabled class="000" onClick="goTo('/cliente/ranking')">
+              <ion-icon name="ios-trophy"></ion-icon> Ranking
+            </button>
+
+            <hr>
+            <button class="000" onClick="goTo('/cliente/perfil')">
+              <ion-icon name="ios-person"></ion-icon> Perfil
+            </button>
+            <button onClick="goTo('/cliente/home/sair')" class='sair'>
+              <ion-icon name="power"></ion-icon> Sair
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-9 cFullPerfil">
+        <div class="ctn-perfil-conteudo">
+          <div class="dash-home">
+            <div class="cPLc-header">
+              <ion-icon name="person"></ion-icon> Resumo
+            </div>
+
+            <div class="cPLc-conteudo">
+              <strong>Olá, MeuUsuário!</strong> Bem-vindo a sua
+              área do cliente. Aqui você terá acesso a todas as suas compras feitas em nossa loja, estando aprovadas,
+              recusadas, em andamento e afins.
+              <br><br>
+              Caso ainda esteja com dúvidas, entre em contato em nosso suporte ou nos envie um e-mail para
+              <button>contato@gmdevs.net</button>, responderemos o mais breve possível.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- |||||||||||||||||||||||||||||| -->
+  <!-- ||| [ CODIGO DO CONTEÚDO ] ||| -->
+  <!-- |||||||||||||||||||||||||||||| -->
+
+
+
+
+
+  <!-- |||||||||||||||||||||||||||| -->
+  <!-- ||| [ CODIGO DO RODAPE ] ||| -->
+  <!-- |||||||||||||||||||||||||||| -->
+  <footer>
+    <div class="brand">
+      © <strong>GMDevs v4.0</strong>. Todos direitos reservados
+    </div>
+  </footer>
+  <!-- |||||||||||||||||||||||||||| -->
+  <!-- ||| [ CODIGO DO RODAPE ] ||| -->
+  <!-- |||||||||||||||||||||||||||| -->
+
+
+
+
+
+
+
+
+  <!-- # IMPORTS - ( JS - ION ICONS ) # -->
+  <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+
+  <!-- # IMPORTS - ( JS ) # -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+
+  <!-- # IMPORTS - ( JS ) # -->
+  <script src="/assets/js/jquery/jquery.min.js"></script>
+  <script src="/assets/js/sweetalert.js"></script>
+
+  <script src="/assets/js/wow/wow.min.js"></script>
+  <script src="/assets/js/waves/waves.min.js"></script>
+  <script src="/assets/js/popper/umd/popper.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+
+  <!-- # IMPORTS - ( JS - CONTROLADORES ) # -->
+  <script src="/assets/js/geral.js"></script>
+  <script src="/assets/js/full.js"></script>
+
+</body>
+
+</html>
