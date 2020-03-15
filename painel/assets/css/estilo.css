@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:300,300i,400,400i,500,500i,600,600i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,thai,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&subset=devanagari,latin-ext');
+
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@media (max-width: 576px) {
+    .hideMobile { display: none }
+}
+@media (min-width: 576px) {
+    .hideMobile { display: none }
+}
+@media (min-width: 768px) {
+    .hideMobile { display: none }
+}
+@media (min-width: 992px) {
+    .hideMobile { display: block }
+}
+@media (min-width: 1200px) {
+    .hideMobile { display: block }
+}
+
+* {
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Rajdhani', sans-serif !important;
+    background: #1e1e2f;
+    position: relative;
+    z-index: 9999;
+}
+
+a {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.bshadow {
+    -webkit-box-shadow: 0px -3px 12px -6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px -3px 12px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px -3px 12px -6px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-box {
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.1);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.1);
+}
+
+.sbshadow {
+    -webkit-box-shadow: 0 0 1px 0 rgba(59,89,178,.08), 0 4px 8px rgba(59,89,178,.2);
+    -moz-box-shadow: 0 0 1px 0 rgba(59,89,178,.08), 0 4px 8px rgba(59,89,178,.2);
+    box-shadow: 0 0 1px 0 rgba(59,89,178,.08), 0 4px 8px rgba(59,89,178,.2);
+}
+
+.bvshadow {
+    -webkit-box-shadow: 0px 0px 22px -6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 22px -6px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 22px -6px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+/***
+  * CSS CODE STYLE ( CONTAINERS )
+***/
+.opacity-hide {
+    opacity: 0;
+}
+
+.ctn-global {
+    width: 85%;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-right: 50px;
+    position: relative;
+    float: right;
+    z-index: 10;
+}
+
+.ctn-global button.btn-voltar {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 12px;
+    background: #212121;
+    border-radius: 3px;
+    position: absolute;
+    top: 95px;
+    right: 0;
+}
+
+.ctn-global .listagemRow {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.ctn-global .listagemRow.lgr80 { width: 80%; }
+.ctn-global .listagemRow.lgr85 { width: 85%; }
+.ctn-global .listagemRow.lgr86 { width: 86%; }
+.ctn-global .listagemRow.lgr90 { width: 90%; }
+.ctn-global .listagemRow.lgrWeb { width: 1250px; }
+
+.padding10 { padding: 10px; }
+.padding20 { padding: 20px; }
+.padding30 { padding: 30px; }
+
+.ctn-global spaceall {
+    height: 30px;
+    display: block;
+}
+
+.listagemRow { 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.ctn-global .listagemRow .col-md-3 { padding-left: 0; }
+.ctn-global .listagemRow .col-md-9 { padding-right: 0; }
+
+.ctn-global .listagemRow.lgrWeb .listagemRow .col-md-4 { padding-right: 0; padding-left: 0; }
+.ctn-global .listagemRow.lgrWeb .listagemRow .col-md-8 { padding-left: 0; }
+
+
+
+
+
+/***
+  * CSS CODE STYLE ( HEADER )
+***/
+.header-full {
+    width: 100%;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: .6px dashed rgba(255, 255, 255, .2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.header-full .cardLogo { width: 200px; }
+.header-full .cardLogo img { width: 100%; }
+.header-full .cardPerfil {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+.header-full .cardPerfil .cPL-avatar { width: 55px; height: 55px; margin-left: 10px; position: relative; }
+.header-full .cardPerfil .cPL-avatar img { width: 100%; height: 100%; border-radius: 50%; }
+.header-full .cardPerfil .cPL-avatar .btn-sair { visibility: hidden; position: absolute; top: 0; bottom: 0; }
+
+.header-full .cardPerfil .cPL-avatar:hover .btn-sair {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 20px;
+    background: #EE2C2C;
+    border-radius: 50%;
+    cursor: pointer;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1111;
+    transition: all .3s ease-in-out; 
+}
+.header-full .cardPerfil .cPL-avatar:hover .btn-sair ion-icon { margin-bottom: -3px; }
+.header-full .cardPerfil .cPL-content {
+    color: #999;
+    font-size: 15px;
+    text-align: right;
+}
+.header-full .cardPerfil .cPL-content em {
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+}
+
+
+
+
+/***
+  * CSS CODE STYLE ( MENU )
+***/
+menu {
+    width: 100%;
+    height: 58px;
+    background: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    -webkit-box-shadow: 0px 0px 22px -6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 22px -6px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 22px -6px rgba(0,0,0,0.2);
+    z-index: 99999;
+}
+menu .menu-botoes {
+    width: 1260px;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+menu .menu-botoes ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+menu .menu-botoes li {
+    list-style: none;
+    display: block;
+    float: right;
+}
+menu .menu-botoes li button {
+    height: 100%;
+    color: #444;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+menu .menu-botoes li button ion-icon { margin-bottom: -3px; }
+menu .menu-botoes li button img { width: 20px; height: 20px; }
+menu .menu-botoes li.ativo button,
+menu .menu-botoes li button:hover {
+    color: #FFAA00;
+}
+menu .menu-botoes li.sair button {
+    height: 100%;
+    padding: 0 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background: #EE2C2C;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+menu .menu-botoes li.sair button ion-icon { margin-bottom: -3.5px; }
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+}
+footer.fixed-bottom {
+    position: absolute;
+    bottom: 0;
+}
+footer .brand {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .brand .copyright {
+    color: #999;
+    font-size: 16px;
+    text-align: center;
+}
+footer .brand .copyright button {
+    color: #aaa;
+    font-weight: 600;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+footer .brand .copyright button:hover { color: #1d8cf8; }
+footer .brand .copyright ion-icon { color: #1d8cf8; margin-bottom: -2px; }
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .ctn-global { width: 100%; padding: 30px; }
+    .ctn-global .listagemRow { flex-direction: column; }
+    .ctn-global .listagemRow.lgrWeb { width: 100%; }
+
+    .listagemRow .col-md-3 { margin-bottom: 30px; padding-right: 0; }
+    .listagemRow .col-md-9 { padding-left: 0; }
+
+    .listagemRow .col-md-4,
+    .listagemRow .col-md-8 { padding-left: 0; padding-right: 0; }
+
+    .listagemRow .col-md-4,
+    .listagemRow .col-md-8 { margin: 20px 0; }
+
+    footer .brand { padding: 0 30px; }
+    
+}
+
+
+@media (max-width: 870px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ESSE É O SCROLL, SEM COR, SÓ COM A LARGURA */
+
+::-webkit-scrollbar {
+    height: 0;
+    overflow: visible;
+    width: 3px;
+    background-color: #212121;
+}
+
+
+
+/* ESSE É O SCROLL NORMAL, PODE SER DEFINIDO A COR, BORDAR, ETC */
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 0;
+    border-width: 1px 1px 1px 6px;
+}
+
+
+
+/* AQUI É A COR QUANDO PASSA O MOUSE EM CIMA DO SCROLL */
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0655bb; 
+}
+
+/* AQUI É A COR DO SCROLL QUANDO ESTÁ COM O MAUSE CLICADO NELE */
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #0655bb; 
+}
+
+
+
+::-webkit-scrollbar-button {
+    height: 0;
+    width: 0;
+}
+
+
+
+::-webkit-scrollbar-track {
+    background-clip: padding-box;
+    border: solid transparent;
+    border-width: 0 0 0 4px;
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS CODE STYLE ( HOVER TOOLTIP ) */
+
+.tooltip {
+    display: inline-block;
+}
+
+.tooltip[ver="sim"] tooltext {
+    position: relative;
+    display: none;
+}
+.tooltip[ver="sim"]:hover tooltext {
+    width: max-content;
+    height: max-content;
+    padding: 5px 10px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    background-image: linear-gradient(45deg, #3358f4 0%, #3358f4 100%);
+    border-radius: 6px;
+    display: block;
+    position: absolute;
+    z-index: 9999;
+}
+.tooltip[ver="sim"]:hover tooltext.p-direito {
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    left: 75px;
+}
+.tooltip[ver="sim"]:hover tooltext.p-direito::after {
+    margin-top: -5px;
+    border-color: transparent #3358f4 transparent transparent;
+    left: -5px;
+    top: 48%;
+    bottom: 100%;
+}
+
+.tooltip[ver="sim"] tooltext::after {
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+}
